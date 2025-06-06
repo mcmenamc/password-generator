@@ -89,7 +89,7 @@ export default function PasswordGenerator() {
           <p className="text-lg text-gray-600">Create secure passwords with advanced customization</p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 gap-6">
           {/* Main Generator - Left Column */}
           <div className="lg:col-span-2 space-y-6">
             {/* Generated Password */}
@@ -115,13 +115,13 @@ export default function PasswordGenerator() {
           {/* Settings and History - Right Column */}
           <div className="space-y-6">
             {/* Display Settings */}
-            <DisplaySettingsComponent settings={displaySettings} onChange={setDisplaySettings} />
+            {/* <DisplaySettingsComponent settings={displaySettings} onChange={setDisplaySettings} /> */}
 
             {/* Password History */}
             <PasswordHistory history={passwordHistory} onClearHistory={handleClearHistory} />
 
             {/* Security Tips */}
-            <SecurityTips />
+            {/* <SecurityTips /> */}
           </div>
         </div>
       </div>
