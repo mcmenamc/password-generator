@@ -7,19 +7,13 @@ export const metadata: Metadata = {
   description: 'Genera contraseñas seguras y personalizadas con nuestro generador gratuito. Crea contraseñas fuertes con opciones de personalización.',
   generator: 'v0.dev',
   keywords: ['generador de contraseñas', 'contraseña segura', 'crear contraseña', 'seguridad en línea'],
-  authors: [{ name: 'Tu Nombre', url: 'https://tusitio.com' }],
+  authors: [{ name: 'Tu Nombre', url: 'https://generador-contrasena.vercel.app/' }],
   openGraph: {
     title: 'Generador de Contraseñas Seguras',
     description: 'Genera contraseñas seguras y personalizadas con nuestro generador gratuito',
-    url: 'https://tusitio.com',
+    url: 'https://generador-contrasena.vercel.app/',
     siteName: 'Generador de Contraseñas',
-    images: [
-      {
-        url: 'https://tusitio.com/og-image.png',
-        width: 800,
-        height: 600,
-      },
-    ],
+   
     locale: 'es_ES',
     type: 'website',
   },
@@ -27,7 +21,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Generador de Contraseñas Seguras',
     description: 'Genera contraseñas seguras y personalizadas con nuestro generador gratuito',
-    images: ['https://tusitio.com/twitter-image.png'],
+    images: ['https://generador-contrasena.vercel.app//twitter-image.png'],
   },
 }
 
