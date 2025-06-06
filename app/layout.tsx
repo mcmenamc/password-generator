@@ -13,7 +13,13 @@ export const metadata: Metadata = {
     description: 'Genera contraseñas seguras y personalizadas con nuestro generador gratuito',
     url: 'https://generador-contrasena.vercel.app/',
     siteName: 'Generador de Contraseñas',
-   
+    images: [
+      {
+        url: '/favicon.svg',
+        width: 800,
+        height: 800,
+      },
+    ],
     locale: 'es_ES',
     type: 'website',
   },
@@ -32,6 +38,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head />
+      <link rel="icon" href="/favicon.svg" sizes="any" />
+      <link rel="apple-touch-icon" href="/favicon.svg" />
+
       <body>
         <Toaster />
         {children}
